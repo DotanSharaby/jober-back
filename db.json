@@ -1,15 +1,18 @@
 {
-  "job": [{
-        "_id": "kj3h4k63",
-        "title": "Full Stack Developer",
-        "companyId": "34jk5h364h6l36",
-        "desc": "this is a job"
-    }
-  ],
-  "user": [
+  "job": [
     {
-      "_id": "asjdakje4547",
-      "name": "moshe"
+      "_id": "kj3h4k63",
+      "title": "KUUKU",
+      "owner": {
+        "id": "90328jfsc",
+        "name": "Wixer",
+        "logoUrl": "http://cdn.akc.org/content/article-body-image/cavkingcharlessmalldogs.jpg"
+      },
+      "loc": {
+        "address": "Tel Aviv"
+      },
+      "payment": 8900,
+      "rating": 4.9
     }
   ]
 }
