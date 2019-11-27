@@ -3,14 +3,16 @@
     {
       "_id": "kj3h4k63",
       "title": "KUUKU",
-      "company": "wixxxx",
-      "location": "hashfela"
-    }
-  ],
-  "user": [
-    {
-      "_id": "asjdakje4547",
-      "name": "moshe"
+      "owner": {
+        "id": "90328jfsc",
+        "name": "Wixer",
+        "logoUrl": "http://cdn.akc.org/content/article-body-image/cavkingcharlessmalldogs.jpg"
+      },
+      "loc": {
+        "address": "Tel Aviv"
+      },
+      "payment": 8900,
+      "rating": 4.9
     }
   ]
 }
