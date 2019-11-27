@@ -12,7 +12,8 @@
         "address": "Tel Aviv"
       },
       "payment": 8900,
-      "rating": 4.9
+      "rating": 4.9,
+      "img": "https://www.jobs.ie/job-talk/wp-content/uploads/Late-to-work-640x480.jpgs"
     }
   ]
 }
