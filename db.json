@@ -2,7 +2,7 @@
   "job": [
     {
       "_id": "kj3h4k63",
-      "title": "Frontend Developer",
+      "title": "Account Manager",
       "owner": {
         "id": "90328jfsc",
         "name": "Wixer",
@@ -15,56 +15,56 @@
       "payment": 8900,
 
       "rating": 4.9,
-      "desc": "Very good job, join us! jjwef jfioalkf\n aisoejflk jsidof \njieosf jiod jefio\n  weurjjnwf ehhjsnkd suhdiusef sidufnskjfn sduhfisef \niufsejefnsf isjfk nneofijsof",
-      "img": "https://gradsingapore.com/sites/gradsingapore.com/files/gradsingapore_Article_3%20Ways%20to%20Follow%20Up%20After%20a%20Job%20Interview_2018.jpg"
+      "desc": "Develops new business by analyzing account potential; initiating, developing, and closing sales; recommending new applications and sales strategies.\nIdentifies potential in accounts by studying current business; interviewing key customer personnel and company personnel who have worked with customer; identifying and evaluating additional needs; analyzing opportunities.",
+      "img": "https://images.unsplash.com/photo-1531973576160-7125cd663d86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
     },
     {
       "_id": "3fjei49rf",
-      "title": "Frontend Developer",
+      "title": "Project Manager",
       "owner": {
         "id": "90328jfsc",
-        "name": "Mister Toy",
-        "rating": 4.9,
+        "name": "Googloo",
+        "rating": 4.4,
         "logoUrl": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png"
       },
       "loc": {
-        "address": "Tel Aviv"
+        "address": "Raanana"
       },
       "payment": 8900,
-      "desc": "This is a job that helps you\nbe better at playing with toys.\nGo for it!\nhehe :-)",
-      "img": "https://gradsingapore.com/sites/gradsingapore.com/files/gradsingapore_Article_3%20Ways%20to%20Follow%20Up%20After%20a%20Job%20Interview_2018.jpg"
+      "desc": "Builds market position by locating, developing, defining, and closing business relationships.\nIdentifies trendsetter ideas by researching industry and related events, publications, and announcements.\nTracks individual contributors and their accomplishments.\nLocates or proposes potential business deals by contacting potential partners.\nDiscovers and explores business opportunities.",
+      "img": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"
     },
     {
       "_id": "iewfu2398ewuf",
-      "title": "Frontend Developer",
+      "title": "Backend Developer",
       "owner": {
         "id": "90328jfsc",
-        "name": "Wixer",
-        "rating": 4.9,
+        "name": "Check Boing",
+        "rating": 3.6,
         "logoUrl": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png"
       },
       "loc": {
-        "address": "Tel Aviv"
+        "address": "Bat Yam"
       },
       "payment": 8900,
-      "desc": "Very good job, join us! jjwef jfioalkf\n aisoejflk jsidof \njieosf jiod jefio\n  weurjjnwf ehhjsnkd suhdiusef sidufnskjfn sduhfisef \niufsejefnsf isjfk nneofijsof",
-      "img": "https://gradsingapore.com/sites/gradsingapore.com/files/gradsingapore_Article_3%20Ways%20to%20Follow%20Up%20After%20a%20Job%20Interview_2018.jpg"
+      "desc": "Recommends equity investments.\nDevelops negotiating strategies and positions by studying integration of new venture with company strategies and operations.\nExamines risks and potentials for the business opportunities.\nEstimates partners’ needs and goals.",
+      "img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
     },
     {
       "_id": "eurh3iro89",
-      "title": "Frontend Developer",
+      "title": "Account Manager",
       "owner": {
         "id": "90328jfsc",
-        "name": "Wixer",
-        "rating": 4.9,
+        "name": "Microsolve",
+        "rating": 4.8,
         "logoUrl": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png"
       },
       "loc": {
-        "address": "Tel Aviv"
+        "address": "Eilat"
       },
       "payment": 8900,
-      "desc": "Very good job, join us! jjwef jfioalkf\n aisoejflk jsidof \njieosf jiod jefio\n  weurjjnwf ehhjsnkd suhdiusef sidufnskjfn sduhfisef \niufsejefnsf isjfk nneofijsof",
-      "img": "https://gradsingapore.com/sites/gradsingapore.com/files/gradsingapore_Article_3%20Ways%20to%20Follow%20Up%20After%20a%20Job%20Interview_2018.jpg"
+      "desc": "Closes new business deals by coordinating requirements; developing and negotiating contracts; and integrating contract requirements with business operations.\nProtects organization’s value by keeping information confidential.\nEnhances organization’s reputation by accepting ownership for accomplishing new and different requests.",
+      "img": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
     }
   ]
 }
