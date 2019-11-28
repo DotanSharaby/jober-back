@@ -5,18 +5,15 @@
       "title": "Frontend Developer",
       "owner": {
         "id": "90328jfsc",
-        "name": "Wixer",
+        "name": "Driver",
         "logoUrl": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png"
       },
       "loc": {
-        "address": "Tel Aviv"
+        "address": "Stalingrad"
       },
       "payment": 8900,
       "rating": 4.9,
-<<<<<<< HEAD
-      "desc": "very happy job, join us! jjwef jfioalkf\n aisoejflk jsidof \njieosf jiod jefio\n  weurjjnwf ehhjsnkd suhdiusef sidufnskjfn sduhfisef \niufsejefnsf isjfk nneofijsof",
-=======
-      "desc": "Very good job, join us! jjwef jfioalkf\n aisoejflk jsidof \njieosf jiod jefio\n  weurjjnwf ehhjsnkd suhdiusef sidufnskjfn sduhfisef \niufsejefnsf isjfk nneofijsof",
+      "desc": "Communists only",
       "img": "https://gradsingapore.com/sites/gradsingapore.com/files/gradsingapore_Article_3%20Ways%20to%20Follow%20Up%20After%20a%20Job%20Interview_2018.jpg"
     },
     {
@@ -32,23 +29,23 @@
       },
       "payment": 8900,
       "rating": 4.9,
-      "desc": "Very good job, join us! jjwef jfioalkf\n aisoejflk jsidof \njieosf jiod jefio\n  weurjjnwf ehhjsnkd suhdiusef sidufnskjfn sduhfisef \niufsejefnsf isjfk nneofijsof",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quaerat qui nisi explicabo aperiam provident optio officiis aliquid ducimus, dolorem minus suscipit minima blanditiis? Aut eaque quod aliquid culpa vitae.\n",
       "img": "https://gradsingapore.com/sites/gradsingapore.com/files/gradsingapore_Article_3%20Ways%20to%20Follow%20Up%20After%20a%20Job%20Interview_2018.jpg"
     },
     {
       "_id": "iewfu2398ewuf",
-      "title": "Frontend Developer",
+      "title": "Sideend Developer",
       "owner": {
         "id": "90328jfsc",
-        "name": "Wixer",
+        "name": "Chixer",
         "logoUrl": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png"
       },
       "loc": {
-        "address": "Tel Aviv"
+        "address": "Um'Rashrash"
       },
       "payment": 8900,
       "rating": 4.9,
-      "desc": "Very good job, join us! jjwef jfioalkf\n aisoejflk jsidof \njieosf jiod jefio\n  weurjjnwf ehhjsnkd suhdiusef sidufnskjfn sduhfisef \niufsejefnsf isjfk nneofijsof",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quaerat qui nisi explicabo aperiam provident optio officiis aliquid ducimus, dolorem minus suscipit minima blanditiis? Aut eaque quod aliquid culpa vitae.\n",
       "img": "https://gradsingapore.com/sites/gradsingapore.com/files/gradsingapore_Article_3%20Ways%20to%20Follow%20Up%20After%20a%20Job%20Interview_2018.jpg"
     },
     {
@@ -65,7 +62,6 @@
       "payment": 8900,
       "rating": 4.9,
       "desc": "Very good job, join us! jjwef jfioalkf\n aisoejflk jsidof \njieosf jiod jefio\n  weurjjnwf ehhjsnkd suhdiusef sidufnskjfn sduhfisef \niufsejefnsf isjfk nneofijsof",
->>>>>>> e61052e575d6e52c460cb01bee48d58a72d6615c
       "img": "https://gradsingapore.com/sites/gradsingapore.com/files/gradsingapore_Article_3%20Ways%20to%20Follow%20Up%20After%20a%20Job%20Interview_2018.jpg"
     }
   ]
