@@ -36,11 +36,7 @@
     },
     {
       "_id": "iewfu2398ewuf",
-<<<<<<< HEAD
-      "title": "Sideend Developer",
-=======
       "title": "Backend Developer",
->>>>>>> 4bc56dd5fe9df46e6deb1bd679f40893c5e36f98
       "owner": {
         "id": "90328jfsc",
         "name": "Check Boing",
@@ -48,11 +44,7 @@
         "logoUrl": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png"
       },
       "loc": {
-<<<<<<< HEAD
-        "address": "Um'Rashrash"
-=======
         "address": "Bat Yam"
->>>>>>> 4bc56dd5fe9df46e6deb1bd679f40893c5e36f98
       },
       "payment": 8900,
       "desc": "Recommends equity investments.\nDevelops negotiating strategies and positions by studying integration of new venture with company strategies and operations.\nExamines risks and potentials for the business opportunities.\nEstimates partners’ needs and goals.",
