@@ -18,7 +18,7 @@
       "_id": "kj3h4k63",
       "title": "Account Manager",
       "owner": {
-        "id": "90328jfsc",
+        "_id": "90328jfsc",
         "name": "Wixer",
         "rating": 4.9,
         "logoUrl": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png"
@@ -26,6 +26,10 @@
       "loc": {
         "address": "Tel Aviv"
       },
+      "props": [
+        "parking",
+        "mug-hot"
+      ],
       "payment": 8900,
       "rating": 4.9,
       "desc": "Develops new business by analyzing account potential; initiating, developing, and closing sales; recommending new applications and sales strategies.\nIdentifies potential in accounts by studying current business; interviewing key customer personnel and company personnel who have worked with customer; identifying and evaluating additional needs; analyzing opportunities.",
@@ -39,7 +43,7 @@
       "_id": "3fjei49rf",
       "title": "Project Manager",
       "owner": {
-        "id": "90328jfsc",
+        "_id": "90328jfsc",
         "name": "Googloo",
         "rating": 4.4,
         "logoUrl": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg"
@@ -47,6 +51,9 @@
       "loc": {
         "address": "Raanana"
       },
+      "props": [
+        "paw"
+      ],
       "payment": 8900,
       "desc": "Builds market position by locating, developing, defining, and closing business relationships.\nIdentifies trendsetter ideas by researching industry and related events, publications, and announcements.\nTracks individual contributors and their accomplishments.\nLocates or proposes potential business deals by contacting potential partners.\nDiscovers and explores business opportunities.",
       "imgs": [
@@ -57,7 +64,7 @@
       "_id": "iewfu2398ewuf",
       "title": "Backend Developer",
       "owner": {
-        "id": "90328jfsc",
+        "_id": "90328jfsc",
         "name": "Check Boing",
         "rating": 3.6,
         "logoUrl": "http://www.advertguru.co.zw/wp-content/uploads/2015/09/logo-designing-in-Harare-Zimbabwe.jpg"
@@ -65,6 +72,10 @@
       "loc": {
         "address": "Bat Yam"
       },
+      "props": [
+        "utensils",
+        "paw"
+      ],
       "payment": 8900,
       "desc": "Recommends equity investments.\nDevelops negotiating strategies and positions by studying integration of new venture with company strategies and operations.\nExamines risks and potentials for the business opportunities.\nEstimates partners’ needs and goals.",
       "imgs": [
@@ -75,7 +86,7 @@
       "_id": "eurh3iro89",
       "title": "Account Manager",
       "owner": {
-        "id": "90328jfsc",
+        "_id": "90328jfsc",
         "name": "Microsolve",
         "rating": 4.8,
         "logoUrl": "https://www.designfreelogoonline.com/wp-content/uploads/2014/12/00240-Design-Free-3D-Company-Logo-Templates-03.png"
@@ -83,6 +94,7 @@
       "loc": {
         "address": "Eilat"
       },
+      "props": [],
       "payment": 8900,
       "desc": "Closes new business deals by coordinating requirements; developing and negotiating contracts; and integrating contract requirements with business operations.\nProtects organization’s value by keeping information confidential.\nEnhances organization’s reputation by accepting ownership for accomplishing new and different requests.",
       "imgs": [
