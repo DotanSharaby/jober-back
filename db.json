@@ -2,7 +2,7 @@
   "user": [
     {
       "email": "d@d.com",
-      "img": "",
+      "img": "https://www.afrombira.com/img/no-user.png",
       "company": {
         "_id": "90328jfsc",
         "name": "Wixer",
@@ -15,7 +15,7 @@
     },
     {
       "email": "k@k.com",
-      "img": "",
+      "img": "https://www.afrombira.com/img/no-user.png",
       "company": {
         "_id": "90328jfsc",
         "name": "Check Boing",
@@ -28,7 +28,7 @@
     },
     {
       "email": "m@m.com",
-      "img": "",
+      "img": "https://www.afrombira.com/img/no-user.png",
       "company": {
         "_id": "90328jfsc",
         "name": "Googloo",
@@ -45,7 +45,7 @@
       "archivedJobsIds": [],
       "likesJobsIds": [],
       "appliedJobsIds": ["kj3h4k63"],
-      "img": "",
+      "img": "https://www.afrombira.com/img/no-user.png",
       "pass": "d",
       "username": "Dalia",
       "_id": "ioejf8"
