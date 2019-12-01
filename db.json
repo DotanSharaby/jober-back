@@ -3,7 +3,7 @@
     {
       "email": "d@d.com",
       "img": "https://www.afrombira.com/img/no-user.png",
-      "company": {
+      "comp": {
         "_id": "90328jfsc",
         "name": "Wixer",
         "rating": 4.9,
@@ -16,7 +16,7 @@
     {
       "email": "k@k.com",
       "img": "https://www.afrombira.com/img/no-user.png",
-      "company": {
+      "comp": {
         "_id": "90328jfsc",
         "name": "Check Boing",
         "rating": 3.6,
@@ -29,7 +29,7 @@
     {
       "email": "m@m.com",
       "img": "https://www.afrombira.com/img/no-user.png",
-      "company": {
+      "comp": {
         "_id": "90328jfsc",
         "name": "Googloo",
         "rating": 4.4,
