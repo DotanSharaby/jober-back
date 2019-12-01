@@ -43,7 +43,7 @@
       "email": "d@d.com",
       "skills": ["developer"],
       "archivedJobsIds": [],
-      "likesJobsIds": [],
+      "savedJobsIds": [],
       "appliedJobsIds": ["kj3h4k63"],
       "img": "https://www.afrombira.com/img/no-user.png",
       "pass": "d",
@@ -120,7 +120,7 @@
           "likes": 0
         }
       ],
-      "likes": 5,
+      "saves": 5,
       "applicants": [
         {
           "email": "d@d.com",
@@ -234,7 +234,7 @@
           "likes": 0
         }
       ],
-      "likes": 7,
+      "saves": 7,
       "applicants": [
         {
           "email": "d@d.com",
