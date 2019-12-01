@@ -234,6 +234,16 @@
           "likes": 0
         }
       ],
+      "likes": 7,
+      "applicants": [
+        {
+          "email": "d@d.com",
+          "skills": ["developer"],
+          "img": "",
+          "username": "Dalia",
+          "_id": "ioejf8"
+        }
+      ],
       "payment": 8900,
       "desc": "Builds market position by locating, developing, defining, and closing business relationships.\nIdentifies trendsetter ideas by researching industry and related events, publications, and announcements.\nTracks individual contributors and their accomplishments.\nLocates or proposes potential business deals by contacting potential partners.\nDiscovers and explores business opportunities.",
       "img": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"
