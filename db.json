@@ -1,54 +1,51 @@
 {
   "user": [
     {
-      "email": "d@d.com",
-      "img": "https://www.afrombira.com/img/no-user.png",
-      "comp": {
-        "_id": "90328jfsc",
-        "name": "Wixer",
-        "rating": 4.9,
-        "logoUrl": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png"
-      },
-      "pass": "d",
-      "username": "Dotan",
-      "_id": "7olFI"
+      "email": "w@w.com",
+      "img": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png",
+      "pass": "w",
+      "rating": 4.9,
+      "username": "Wixer",
+      "_id": "7olFI",
+      "createdJobsIds": ["kj3h4k63"]
     },
     {
-      "email": "k@k.com",
-      "img": "https://www.afrombira.com/img/no-user.png",
-      "comp": {
-        "_id": "90328jfsc",
-        "name": "Check Boing",
-        "rating": 3.6,
-        "logoUrl": "http://www.advertguru.co.zw/wp-content/uploads/2015/09/logo-designing-in-Harare-Zimbabwe.jpg"
-      },
-      "pass": "k",
-      "username": "Kosta",
-      "_id": "9823jid"
+      "email": "cp@cp.com",
+      "img": "http://www.advertguru.co.zw/wp-content/uploads/2015/09/logo-designing-in-Harare-Zimbabwe.jpg",
+      "rating": 3.6,
+      "pass": "cp",
+      "username": "Check Boing",
+      "_id": "9823jid",
+      "createdJobsIds": ["iewfu2398ewuf"]
+    },
+    {
+      "email": "g@g.com",
+      "img": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg",
+      "rating": 4.4,
+      "pass": "g",
+      "username": "Googloo",
+      "_id": "weok9f",
+      "createdJobsIds": ["3fjei49rf", "iojrw93"]
     },
     {
       "email": "m@m.com",
-      "img": "https://www.afrombira.com/img/no-user.png",
-      "comp": {
-        "_id": "90328jfsc",
-        "name": "Googloo",
-        "rating": 4.4,
-        "logoUrl": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg"
-      },
+      "_id": "ijlw8e",
+      "username": "Microsolve",
+      "rating": 4.8,
+      "img": "https://www.designfreelogoonline.com/wp-content/uploads/2014/12/00240-Design-Free-3D-Company-Logo-Templates-03.png",
       "pass": "m",
-      "username": "Meital",
-      "_id": "weok9f"
+      "createdJobsIds": ["eurh3iro89"]
     },
     {
       "email": "d@d.com",
       "skills": [
-        "developer"
+        "Frontend Developer",
+        "Fullstack Developer",
+        "Web Developer"
       ],
       "archivedJobsIds": [],
-      "savedJobsIds": [],
-      "appliedJobsIds": [
-        "kj3h4k63"
-      ],
+      "savedJobsIds": ["kj3h4k63", "3fjei49rf", "iojrw93"],
+      "appliedJobsIds": ["3fjei49rf", "iojrw93"],
       "img": "https://www.afrombira.com/img/no-user.png",
       "pass": "d",
       "username": "Dalia",
@@ -60,15 +57,16 @@
       "_id": "kj3h4k63",
       "title": "Account Manager",
       "owner": {
-        "_id": "ijelw4",
-        "name": "Wixer",
-        "logoUrl": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png"
+        "img": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png",
+        "rating": 4.9,
+        "username": "Wixer",
+        "_id": "7olFI"
       },
       "createdAt": 1575206189973,
       "loc": {
         "address": "Tel Aviv"
       },
-      "props": [
+      "perks": [
         "parking",
         "mug-hot"
       ],
@@ -78,7 +76,7 @@
           "from": "Anonymous",
           "createdAt": 1575206189983,
           "txt": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, iure atque maxime harum exercitationem sapiente! Vero maxime ex exercitationem impedit. Quaerat",
-          "likes": 0
+          "likes": 2
         },
         {
           "_id": "1239",
@@ -97,16 +95,16 @@
       "_id": "3fjei49rf",
       "title": "Project Manager",
       "owner": {
-        "_id": "90328jfsc",
-        "name": "Googloo",
+        "img": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg",
         "rating": 4.4,
-        "logoUrl": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg"
+        "username": "Googloo",
+        "_id": "weok9f"
       },
       "createdAt": 1575206189975,
       "loc": {
         "address": "Raanana"
       },
-      "props": [
+      "perks": [
         "paw"
       ],
       "posts": [
@@ -115,7 +113,7 @@
           "from": "Anonymous",
           "createdAt": 1575206189983,
           "txt": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, iure atque maxime harum exercitationem sapiente! Vero maxime ex exercitationem impedit. Quaerat",
-          "likes": 0
+          "likes": 1
         },
         {
           "_id": "2io3",
@@ -130,9 +128,11 @@
         {
           "email": "d@d.com",
           "skills": [
-            "developer"
+            "Frontend Developer",
+            "Fullstack Developer",
+            "Web Developer"
           ],
-          "img": "",
+          "img": "https://www.afrombira.com/img/no-user.png",
           "username": "Dalia",
           "_id": "ioejf8"
         }
@@ -145,16 +145,16 @@
       "_id": "iewfu2398ewuf",
       "title": "Backend Developer",
       "owner": {
-        "_id": "jsjfdo4",
-        "name": "Check Boing",
+        "img": "http://www.advertguru.co.zw/wp-content/uploads/2015/09/logo-designing-in-Harare-Zimbabwe.jpg",
         "rating": 3.6,
-        "logoUrl": "http://www.advertguru.co.zw/wp-content/uploads/2015/09/logo-designing-in-Harare-Zimbabwe.jpg"
+        "username": "Check Boing",
+        "_id": "9823jid"
       },
       "createdAt": 1575206189961,
       "loc": {
         "address": "Bat Yam"
       },
-      "props": [
+      "perks": [
         "utensils",
         "paw"
       ],
@@ -164,7 +164,7 @@
           "from": "Anonymous",
           "createdAt": 1575206189983,
           "txt": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, iure atque maxime harum exercitationem sapiente! Vero maxime ex exercitationem impedit. Quaerat",
-          "likes": 0
+          "likes": 4
         },
         {
           "_id": "dawlk",
@@ -185,20 +185,20 @@
         "_id": "ijlw8e",
         "name": "Microsolve",
         "rating": 4.8,
-        "logoUrl": "https://www.designfreelogoonline.com/wp-content/uploads/2014/12/00240-Design-Free-3D-Company-Logo-Templates-03.png"
+        "img": "https://www.designfreelogoonline.com/wp-content/uploads/2014/12/00240-Design-Free-3D-Company-Logo-Templates-03.png"
       },
       "createdAt": 1575206189967,
       "loc": {
         "address": "Eilat"
       },
-      "props": [],
+      "perks": [],
       "posts": [
         {
           "_id": "ijel3",
           "from": "Anonymous",
           "createdAt": 1575206189983,
           "txt": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, iure atque maxime harum exercitationem sapiente! Vero maxime ex exercitationem impedit. Quaerat",
-          "likes": 0
+          "likes": 3
         },
         {
           "_id": "diow8",
@@ -219,13 +219,13 @@
         "_id": "90328jfsc",
         "name": "Googloo",
         "rating": 4.4,
-        "logoUrl": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg"
+        "img": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg"
       },
       "createdAt": 1575206189959,
       "loc": {
         "address": "Ashdod"
       },
-      "props": [
+      "perks": [
         "paw"
       ],
       "posts": [
@@ -234,7 +234,7 @@
           "from": "Anonymous",
           "createdAt": 1575206189983,
           "txt": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, iure atque maxime harum exercitationem sapiente! Vero maxime ex exercitationem impedit. Quaerat",
-          "likes": 0
+          "likes": 2
         },
         {
           "_id": "esfk3s",
@@ -244,14 +244,16 @@
           "likes": 0
         }
       ],
-      "saves": 8,
+      "saves": 6,
       "applicants": [
         {
           "email": "d@d.com",
           "skills": [
-            "developer"
+            "Frontend Developer",
+            "Fullstack Developer",
+            "Web Developer"
           ],
-          "img": "",
+          "img": "https://www.afrombira.com/img/no-user.png",
           "username": "Dalia",
           "_id": "ioejf8"
         }
