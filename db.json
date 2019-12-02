@@ -1,29 +1,24 @@
 {
-  "user": [
-    {
+  "user": [{
       "email": "w@w.com",
       "img": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png",
       "pass": "w",
-      "username": "Wixer",
-      "_id": "7olFI"
+      "username": "Wixer"
     },
     {
       "email": "cp@cp.com",
       "img": "http://www.advertguru.co.zw/wp-content/uploads/2015/09/logo-designing-in-Harare-Zimbabwe.jpg",
       "pass": "cp",
-      "username": "Check Boing",
-      "_id": "9823jid"
+      "username": "Check Boing"
     },
     {
       "email": "g@g.com",
       "img": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg",
       "pass": "g",
-      "username": "Googloo",
-      "_id": "weok9f"
+      "username": "Googloo"
     },
     {
       "email": "m@m.com",
-      "_id": "ijlw8e",
       "username": "Microsolve",
       "img": "https://www.designfreelogoonline.com/wp-content/uploads/2014/12/00240-Design-Free-3D-Company-Logo-Templates-03.png",
       "pass": "m"
@@ -36,33 +31,26 @@
         "Web Developer"
       ],
       "archivedJobsIds": [],
-      "savedJobsIds": ["kj3h4k63", "3fjei49rf", "iojrw93"],
-      "appliedJobsIds": ["3fjei49rf", "iojrw93"],
+      "savedJobsIds": [],
+      "appliedJobsIds": [],
       "img": "https://www.afrombira.com/img/no-user.png",
       "pass": "d",
-      "username": "Dalia",
-      "_id": "ioejf8"
+      "username": "Dalia"
     }
   ],
-  "job": [
-    {
-      "_id": "kj3h4k63",
+  "job": [{
       "title": "Account Manager",
       "owner": {
         "img": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png",
-        "username": "Wixer",
-        "_id": "7olFI"
+        "username": "Wixer"
       },
       "createdAt": 1575206189973,
-      "loc": {
-        "address": "Tel Aviv"
-      },
+      "address": "Tel Aviv",
       "perks": [
         "parking",
         "mug-hot"
       ],
-      "posts": [
-        {
+      "posts": [{
           "_id": "124",
           "from": "Anonymous",
           "createdAt": 1575206189983,
@@ -83,22 +71,17 @@
       "img": "https://images.unsplash.com/photo-1531973576160-7125cd663d86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
     },
     {
-      "_id": "3fjei49rf",
       "title": "Project Manager",
       "owner": {
         "img": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg",
-        "username": "Googloo",
-        "_id": "weok9f"
+        "username": "Googloo"
       },
       "createdAt": 1575206189975,
-      "loc": {
-        "address": "Raanana"
-      },
+        "address": "Raanana",
       "perks": [
         "paw"
       ],
-      "posts": [
-        {
+      "posts": [{
           "_id": "koep",
           "from": "Anonymous",
           "createdAt": 1575206189983,
@@ -115,41 +98,24 @@
       ],
       "reqSkills": ["Frontend Developer", "Web Developer", "Designer"],
       "saves": 5,
-      "applicants": [
-        {
-          "email": "d@d.com",
-          "skills": [
-            "Frontend Developer",
-            "Fullstack Developer",
-            "Web Developer"
-          ],
-          "img": "https://www.afrombira.com/img/no-user.png",
-          "username": "Dalia",
-          "_id": "ioejf8"
-        }
-      ],
+      "applicants": [],
       "payment": 8900,
       "desc": "Builds market position by locating, developing, defining, and closing business relationships.\nIdentifies trendsetter ideas by researching industry and related events, publications, and announcements.\nTracks individual contributors and their accomplishments.\nLocates or proposes potential business deals by contacting potential partners.\nDiscovers and explores business opportunities.",
       "img": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
     },
     {
-      "_id": "iewfu2398ewuf",
       "title": "Backend Developer",
       "owner": {
         "img": "http://www.advertguru.co.zw/wp-content/uploads/2015/09/logo-designing-in-Harare-Zimbabwe.jpg",
-        "username": "Check Boing",
-        "_id": "9823jid"
+        "username": "Check Boing"
       },
       "createdAt": 1575206189961,
-      "loc": {
-        "address": "Bat Yam"
-      },
+        "address": "Bat Yam",
       "perks": [
         "utensils",
         "paw"
       ],
-      "posts": [
-        {
+      "posts": [{
           "_id": "9823u",
           "from": "Anonymous",
           "createdAt": 1575206189983,
@@ -170,20 +136,15 @@
       "img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
     },
     {
-      "_id": "eurh3iro89",
       "title": "Account Manager",
       "owner": {
-        "_id": "ijlw8e",
         "username": "Microsolve",
         "img": "https://www.designfreelogoonline.com/wp-content/uploads/2014/12/00240-Design-Free-3D-Company-Logo-Templates-03.png"
       },
       "createdAt": 1575206189967,
-      "loc": {
-        "address": "Eilat"
-      },
+        "address": "Eilat",
       "perks": [],
-      "posts": [
-        {
+      "posts": [{
           "_id": "ijel3",
           "from": "Anonymous",
           "createdAt": 1575206189983,
@@ -204,22 +165,17 @@
       "img": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
     },
     {
-      "_id": "iojrw93",
       "title": "Product Manager",
       "owner": {
-        "_id": "90328jfsc",
         "username": "Googloo",
         "img": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg"
       },
       "createdAt": 1575206189959,
-      "loc": {
-        "address": "Ashdod"
-      },
+        "address": "Ashdod",
       "perks": [
         "paw"
       ],
-      "posts": [
-        {
+      "posts": [{
           "_id": "rw3f",
           "from": "Anonymous",
           "createdAt": 1575206189983,
@@ -236,19 +192,7 @@
       ],
       "reqSkills": ["Frontend Developer", "Web Developer", "Designer"],
       "saves": 6,
-      "applicants": [
-        {
-          "email": "d@d.com",
-          "skills": [
-            "Frontend Developer",
-            "Fullstack Developer",
-            "Web Developer"
-          ],
-          "img": "https://www.afrombira.com/img/no-user.png",
-          "username": "Dalia",
-          "_id": "ioejf8"
-        }
-      ],
+      "applicants": [],
       "payment": 8900,
       "desc": "Builds market position by locating, developing, defining, and closing business relationships.\nIdentifies trendsetter ideas by researching industry and related events, publications, and announcements.\nTracks individual contributors and their accomplishments.\nLocates or proposes potential business deals by contacting potential partners.\nDiscovers and explores business opportunities.",
       "img": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"
