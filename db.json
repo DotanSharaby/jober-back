@@ -4,37 +4,29 @@
       "email": "w@w.com",
       "img": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png",
       "pass": "w",
-      "rating": 4.9,
       "username": "Wixer",
-      "_id": "7olFI",
-      "createdJobsIds": ["kj3h4k63"]
+      "_id": "7olFI"
     },
     {
       "email": "cp@cp.com",
       "img": "http://www.advertguru.co.zw/wp-content/uploads/2015/09/logo-designing-in-Harare-Zimbabwe.jpg",
-      "rating": 3.6,
       "pass": "cp",
       "username": "Check Boing",
-      "_id": "9823jid",
-      "createdJobsIds": ["iewfu2398ewuf"]
+      "_id": "9823jid"
     },
     {
       "email": "g@g.com",
       "img": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg",
-      "rating": 4.4,
       "pass": "g",
       "username": "Googloo",
-      "_id": "weok9f",
-      "createdJobsIds": ["3fjei49rf", "iojrw93"]
+      "_id": "weok9f"
     },
     {
       "email": "m@m.com",
       "_id": "ijlw8e",
       "username": "Microsolve",
-      "rating": 4.8,
       "img": "https://www.designfreelogoonline.com/wp-content/uploads/2014/12/00240-Design-Free-3D-Company-Logo-Templates-03.png",
-      "pass": "m",
-      "createdJobsIds": ["eurh3iro89"]
+      "pass": "m"
     },
     {
       "email": "d@d.com",
@@ -58,7 +50,6 @@
       "title": "Account Manager",
       "owner": {
         "img": "https://www.photoframemaster.com/res/templates/thumb_small/bright-blue-kaleidoscope.png",
-        "rating": 4.9,
         "username": "Wixer",
         "_id": "7olFI"
       },
@@ -86,8 +77,8 @@
           "likes": 0
         }
       ],
+      "reqSkills": ["Frontend Developer", "Web Developer", "Designer"],
       "payment": 8900,
-      "rating": 4.9,
       "desc": "Develops new business by analyzing account potential; initiating, developing, and closing sales; recommending new applications and sales strategies.\nIdentifies potential in accounts by studying current business; interviewing key customer personnel and company personnel who have worked with customer; identifying and evaluating additional needs; analyzing opportunities.",
       "img": "https://images.unsplash.com/photo-1531973576160-7125cd663d86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
     },
@@ -96,7 +87,6 @@
       "title": "Project Manager",
       "owner": {
         "img": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg",
-        "rating": 4.4,
         "username": "Googloo",
         "_id": "weok9f"
       },
@@ -123,6 +113,7 @@
           "likes": 0
         }
       ],
+      "reqSkills": ["Frontend Developer", "Web Developer", "Designer"],
       "saves": 5,
       "applicants": [
         {
@@ -146,7 +137,6 @@
       "title": "Backend Developer",
       "owner": {
         "img": "http://www.advertguru.co.zw/wp-content/uploads/2015/09/logo-designing-in-Harare-Zimbabwe.jpg",
-        "rating": 3.6,
         "username": "Check Boing",
         "_id": "9823jid"
       },
@@ -174,6 +164,7 @@
           "likes": 0
         }
       ],
+      "reqSkills": ["Frontend Developer", "Web Developer", "Designer"],
       "payment": 8900,
       "desc": "Recommends equity investments.\nDevelops negotiating strategies and positions by studying integration of new venture with company strategies and operations.\nExamines risks and potentials for the business opportunities.\nEstimates partners’ needs and goals.",
       "img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
@@ -183,8 +174,7 @@
       "title": "Account Manager",
       "owner": {
         "_id": "ijlw8e",
-        "name": "Microsolve",
-        "rating": 4.8,
+        "username": "Microsolve",
         "img": "https://www.designfreelogoonline.com/wp-content/uploads/2014/12/00240-Design-Free-3D-Company-Logo-Templates-03.png"
       },
       "createdAt": 1575206189967,
@@ -208,6 +198,7 @@
           "likes": 0
         }
       ],
+      "reqSkills": ["Frontend Developer", "Web Developer", "Designer"],
       "payment": 8900,
       "desc": "Closes new business deals by coordinating requirements; developing and negotiating contracts; and integrating contract requirements with business operations.\nProtects organization’s value by keeping information confidential.\nEnhances organization’s reputation by accepting ownership for accomplishing new and different requests.",
       "img": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
@@ -217,8 +208,7 @@
       "title": "Product Manager",
       "owner": {
         "_id": "90328jfsc",
-        "name": "Googloo",
-        "rating": 4.4,
+        "username": "Googloo",
         "img": "https://i.pinimg.com/originals/ee/8e/1c/ee8e1ce91c0ffddf0105b4173f597db8.jpg"
       },
       "createdAt": 1575206189959,
@@ -244,6 +234,7 @@
           "likes": 0
         }
       ],
+      "reqSkills": ["Frontend Developer", "Web Developer", "Designer"],
       "saves": 6,
       "applicants": [
         {
