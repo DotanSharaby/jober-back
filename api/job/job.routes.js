@@ -8,11 +8,10 @@ const router = express.Router()
 router.get('/', getJobs);
 router.get('/:id', getJob);
 
-// router.get('/:id/post', getPosts);
 router.post('/post', addPost);
 
-router.post('/:id', addJob);
+router.post('/edit', addJob);
 router.put('/edit/:id', updateJob);
-router.delete('/:id', requireAuth, deleteJob);
+router.delete('/:id',  deleteJob); //requireAuth,
 
 module.exports = router
