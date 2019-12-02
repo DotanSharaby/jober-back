@@ -46,7 +46,7 @@ async function remove(jobId) {
 async function update(job, jobId) {
     const collection = await dbService.getCollection('job')
     try {
-        console.log('job._id', jobId);
+        delete job._id
         await collection.replaceOne({ "_id": ObjectId(jobId) }, { $set: job })
         return job
     } catch (err) {
