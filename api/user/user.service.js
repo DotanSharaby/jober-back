@@ -1,4 +1,3 @@
-
 const dbService = require('../../services/db.service')
 const ObjectId = require('mongodb').ObjectId
 
@@ -16,7 +15,7 @@ async function query(filterBy = {}) {
     const collection = await dbService.getCollection('user')
     try {
         const users = await collection.find(criteria).toArray();
-        users.forEach(user => delete user.password);
+        users.forEach(user => delete user.pass);
 
         return users
     } catch (err) {
@@ -29,7 +28,7 @@ async function getById(userId) {
     const collection = await dbService.getCollection('user')
     try {
         const user = await collection.findOne({"_id":ObjectId(userId)})
-        delete user.password
+        delete user.pass
         return user
     } catch (err) {
         console.log(`ERROR: while finding user ${userId}`)
