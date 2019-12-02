@@ -25,7 +25,7 @@ async function query(filterBy = {}) {
 async function getById(jobId) {
     const collection = await dbService.getCollection('job')
     try {
-        const job = await collection.findOne({"_id":ObjectId(jobId)})
+        const job = await collection.findOne({ "_id": ObjectId(jobId) })
         return job
     } catch (err) {
         console.log(`ERROR: while finding job ${jobId}`)
@@ -36,18 +36,18 @@ async function getById(jobId) {
 async function remove(jobId) {
     const collection = await dbService.getCollection('job')
     try {
-        await collection.remove({"_id":ObjectId(jobId)})
+        await collection.remove({ "_id": ObjectId(jobId) })
     } catch (err) {
         console.log(`ERROR: cannot remove job ${jobId}`)
         throw err;
     }
 }
 
-async function update(job,jobId) {
+async function update(job, jobId) {
     const collection = await dbService.getCollection('job')
     try {
-        console.log('job._id',jobId);
-        await collection.replaceOne({"_id":ObjectId(jobId)}, {$set : job})
+        console.log('job._id', jobId);
+        await collection.replaceOne({ "_id": ObjectId(jobId) }, { $set: job })
         return job
     } catch (err) {
         console.log(`ERROR: cannot update job ${jobId}`)

@@ -22,23 +22,24 @@ app.use(session({
     resave: false,
     saveUninitialized: true,
     cookie: { secure: false }
-  }))
+}))
 
-if (process.env.NODE_ENV !== 'production') {
+// if (process.env.NODE_ENV === 'development') {
+    console.log('in cors');
     const corsOptions = {
         origin: ['http://127.0.0.1:8080', 'http://localhost:8080'],
         credentials: true
     };
     app.use(cors(corsOptions));
-}
+// }
 
 // routes
 app.use('/auth', authRoutes)
 app.use('/user', userRoutes)
 app.use('/job', jobRoutes)
-connectSockets(io)
+// connectSockets(io)
 
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV !== 'development') {
     app.use(express.static(path.resolve(__dirname, 'public')));
 }
 
