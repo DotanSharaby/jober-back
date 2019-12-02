@@ -16,7 +16,6 @@ async function query(filterBy = {}) {
     try {
         const users = await collection.find(criteria).toArray();
         users.forEach(user => delete user.pass);
-
         return users
     } catch (err) {
         console.log('ERROR: cannot find users')
@@ -57,9 +56,13 @@ async function remove(userId) {
 }
 
 async function update(user) {
+    console.log('user service update got user: ', user);
     const collection = await dbService.getCollection('user')
     try {
-        await collection.replaceOne({"_id":ObjectId(user._id)}, {$set : user})
+        let updatedUser = {...user}
+        delete updatedUser._id;
+        await collection.replaceOne({"_id":ObjectId(user._id)}, {$set : updatedUser})
+        console.log('user with new Id: ', user);
         return user
     } catch (err) {
         console.log(`ERROR: cannot update user ${user._id}`)

@@ -7,10 +7,10 @@ async function login(email, pass) {
     if (!email || !pass) return Promise.reject('email and password are required!')
 
     const user = await userService.getByEmail(email)
+    console.log('auth service found user:', user);
     if (!user) return Promise.reject('Invalid email or password')
     const match = await bcrypt.compare(pass, user.pass)
     if (!match) return Promise.reject('Invalid email or password')
-
     delete user.pass;
     return user;
     // return { email, username: user.username, userId: user._id }
