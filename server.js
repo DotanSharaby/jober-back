@@ -12,7 +12,7 @@ const io = require('socket.io')(http);
 const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
 const jobRoutes = require('./api/job/job.routes')
-const connectSockets = require('./api/socket/socket.routes')
+// const connectSockets = require('./api/socket/socket.routes')
 
 
 app.use(cookieParser())
@@ -24,14 +24,14 @@ app.use(session({
     cookie: { secure: false }
 }))
 
-// if (process.env.NODE_ENV === 'development') {
-    // console.log('in cors');
+if (process.env.NODE_ENV === 'development') {
+    console.log('in cors');
     const corsOptions = {
         origin: ['http://127.0.0.1:8080', 'http://localhost:8080'],
         credentials: true
     };
     app.use(cors(corsOptions));
-// }
+}
 
 // routes
 app.use('/auth', authRoutes)
