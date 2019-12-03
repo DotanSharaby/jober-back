@@ -36,7 +36,7 @@ async function getById(jobId) {
 async function remove(jobId) {
     const collection = await dbService.getCollection('job')
     try {
-        await collection.remove({ "_id": ObjectId(jobId) })
+        await collection.deleteOne({ "_id": ObjectId(jobId) })
     } catch (err) {
         console.log(`ERROR: cannot remove job ${jobId}`)
         throw err;
