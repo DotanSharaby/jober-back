@@ -25,7 +25,6 @@ app.use(session({
 }))
 
 if (process.env.NODE_ENV === 'development') {
-    console.log('in cors');
     const corsOptions = {
         origin: ['http://127.0.0.1:8080', 'http://localhost:8080'],
         credentials: true
