@@ -36,7 +36,6 @@ if (process.env.NODE_ENV === 'development') {
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/job', jobRoutes)
-app.use('/', jobRoutes)
 connectSockets(io)
 
 if (process.env.NODE_ENV !== 'development') {
