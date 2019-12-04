@@ -34,6 +34,7 @@ async function getById(userId) {
         throw err;
     }
 }
+
 async function getByEmail(email) {
     const collection = await dbService.getCollection('user')
     try {
