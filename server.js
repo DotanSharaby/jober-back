@@ -36,7 +36,7 @@ if (process.env.NODE_ENV === 'development') {
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/job', jobRoutes)
-connectSockets(io)
+// connectSockets(io)
 
 if (process.env.NODE_ENV !== 'development') {
     app.use(express.static(path.resolve(__dirname, 'public')));

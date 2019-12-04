@@ -46,8 +46,9 @@ async function remove(jobId) {
 async function update(job, jobId) {
     const collection = await dbService.getCollection('job')
     try {
-        delete job._id
-        await collection.replaceOne({ "_id": ObjectId(jobId) }, { $set: job })
+        let updatedJob = {...job}
+        delete updatedJob._id
+        await collection.replaceOne({ "_id": ObjectId(job._id) }, { $set: updatedJob })
         return job
     } catch (err) {
         console.log(`ERROR: cannot update job ${jobId}`)
