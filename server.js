@@ -39,14 +39,7 @@ app.use('/api/job', jobRoutes)
 connectSockets(io)
 
 if (process.env.NODE_ENV !== 'development') {
-    app.use(express.static(path.resolve(__dirname, '/public')));
-    // app.get('/*', function(req, res) {
-    //     res.sendFile(path.join(__dirname, '/public/index.html'), function(err) {
-    //       if (err) {
-    //         res.status(500).send(err)
-    //       }
-    //     })
-    //   })
+    app.use(express.static(path.resolve(__dirname, 'public')));
 }
 
 const port = process.env.PORT || 3000;
