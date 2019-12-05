@@ -2,6 +2,13 @@
     "name": "front",
     "short_name": "front",
     "theme_color": "#4DBA87",
+    "icons": {
+        "favicon32": "/img/icons/favicon-32x32.png",
+        "favicon16": "/img/icons/favicon-32x32.png",
+        "appleTouchIcon": "/img/icons/favicon-32x32.png",
+        "maskIcon": "/img/icons/favicon-32x32.png",
+        "msTileImage": "/img/icons/favicon-32x32.png"
+    },
     "start_url": ".",
     "display": "standalone",
     "background_color": "#000000"
