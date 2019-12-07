@@ -9,7 +9,6 @@ function connectSockets(io) {
             console.log('joining room: ', room);
             socket.join(room);
         });
-
         socket.on('newPost', ({ post, id }) => {
             socket.broadcast.to(id).emit('newPost', post);
         })
