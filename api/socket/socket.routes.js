@@ -3,14 +3,22 @@ module.exports = connectSockets
 
 function connectSockets(io) {
     io.on('connection', socket => {
-        socket.on('newPost', post => {
-            console.log('got new post about to send it back', post);
-            socket.broadcast.emit('newPost', post)
+        console.log('got new connection')
+
+        socket.on('room', (room) => {
+            console.log('joining room: ', room);
+            socket.join(room);
+        });
+
+        socket.on('newPost', ({ post, id }) => {
+            socket.broadcast.to(id).emit('newPost', post);
         })
         socket.on('updatePost', post => {
-            console.log('got updated post', post);
-            socket.broadcast.emit('updatePost', post)
+            socket.broadcast.to(post.id).emit('updatePost', post);
         })
+        // socket.on('jobApplied', user => {
+        //     console.log('user applied', user)
+        //     socket.broadcast.emit('notify')
+        // })
     })
 }
-
