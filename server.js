@@ -39,7 +39,7 @@ app.use('/api/job', jobRoutes)
 app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'public/index.html'));
 })
-connectSockets(io)
+connectSockets(io);
 
 if (process.env.NODE_ENV !== 'development') {
     app.use(express.static(path.resolve(__dirname, 'public')));
