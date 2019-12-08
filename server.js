@@ -36,9 +36,6 @@ if (process.env.NODE_ENV === 'development') {
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/job', jobRoutes)
-// app.get('*', (req, res) => {
-//     res.sendFile(path.resolve(__dirname, 'public/index.html'));
-// })
 connectSockets(io);
 
 if (process.env.NODE_ENV !== 'development') {
