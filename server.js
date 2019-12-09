@@ -14,7 +14,6 @@ const userRoutes = require('./api/user/user.routes')
 const jobRoutes = require('./api/job/job.routes')
 const connectSockets = require('./api/socket/socket.routes')
 
-
 app.use(cookieParser())
 app.use(bodyParser.json());
 app.use(session({
@@ -40,10 +39,11 @@ connectSockets(io);
 
 if (process.env.NODE_ENV !== 'development') {
     app.use(express.static(path.resolve(__dirname, 'public')));
-    app.get('*',(req,res)=>{
-        res.sendFile(path.join(__dirname, 'public','index.html'))
-    })
 }
+
+app.get('*', (request, response) => {
+    response.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
 
 const port = process.env.PORT || 3000;
 http.listen(port, () => {
