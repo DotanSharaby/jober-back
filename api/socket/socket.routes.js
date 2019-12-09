@@ -3,10 +3,8 @@ module.exports = connectSockets
 
 function connectSockets(io) {
     io.on('connection', socket => {
-        console.log('got new connection')
 
         socket.on('room', (room) => {
-            console.log('joining room: ', room);
             socket.join(room);
         });
         socket.on('newPost', ({ post, id }) => {
