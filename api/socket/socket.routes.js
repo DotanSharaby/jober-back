@@ -14,7 +14,6 @@ function connectSockets(io) {
             socket.broadcast.to(post.id).emit('updatePost', post);
         })
         socket.on('jobApplied', app => {
-            console.log('user applied', app)
             socket.broadcast.to(app.job.owner._id).emit('notify', app)
         })
     })
