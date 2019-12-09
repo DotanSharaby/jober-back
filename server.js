@@ -30,6 +30,9 @@ if (process.env.NODE_ENV === 'development') {
     };
     app.use(cors(corsOptions));
 }
+if (process.env.NODE_ENV !== 'development') {
+    app.use(express.static(path.resolve(__dirname, 'public')));
+}
 
 // routes
 app.use('/api/auth', authRoutes)
@@ -37,11 +40,7 @@ app.use('/api/user', userRoutes)
 app.use('/api/job', jobRoutes)
 connectSockets(io);
 
-if (process.env.NODE_ENV !== 'development') {
-    app.use(express.static(path.resolve(__dirname, 'public')));
-}
-
-app.get('*', (request, response) => {
+app.get('/*', (request, response) => {
     response.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
