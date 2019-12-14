@@ -57,7 +57,6 @@ async function remove(userId) {
 }
 
 async function update(user) {
-    console.log('user service update got user: ', user);
     const collection = await dbService.getCollection('user')
     try {
         let updatedUser = {...user}
