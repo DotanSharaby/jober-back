@@ -12,6 +12,6 @@ router.post('/post', addPost);
 
 router.post('/edit', addJob);
 router.put('/edit/:id', updateJob);
-router.delete('/:id',  deleteJob); //requireAuth,
+router.delete('/:id', deleteJob); //, requireAuth
 
 module.exports = router

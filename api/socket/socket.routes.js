@@ -13,9 +13,8 @@ function connectSockets(io) {
         socket.on('updatePost', post => {
             socket.broadcast.to(post.id).emit('updatePost', post);
         })
-        // socket.on('jobApplied', user => {
-        //     console.log('user applied', user)
-        //     socket.broadcast.emit('notify')
-        // })
+        socket.on('jobApplied', app => {
+            socket.broadcast.to(app.job.owner._id).emit('notify', app)
+        })
     })
 }
