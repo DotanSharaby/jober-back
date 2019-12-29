@@ -10,11 +10,21 @@ module.exports = {
     add
 }
 
-async function query(filterBy = {}) {
-    const criteria = _buildCriteria(filterBy)
+async function query() {
     const collection = await dbService.getCollection('job')
     try {
-        const jobs = await collection.find(criteria).toArray();
+        const jobs = await collection.find().toArray();
+        // jobs = jobs.map(job => {
+        //     if (!job.applies) job.applies = []
+        //     if (job.applies.length > 0) {
+        //         job.applies = job.applies.map(apply => {
+        //             var min = job.createdAt + 240000
+        //             apply.sentAt = Math.floor(Math.random() * (Date.now - min)) + min
+        //             return apply
+        //         })
+        //     }
+        //     return job
+        // })
         return jobs
     } catch (err) {
         console.log('ERROR: cannot find jobs')
@@ -46,7 +56,7 @@ async function remove(jobId) {
 async function update(job, jobId) {
     const collection = await dbService.getCollection('job')
     try {
-        let updatedJob = {...job}
+        let updatedJob = { ...job }
         delete updatedJob._id
         await collection.replaceOne({ "_id": ObjectId(job._id) }, { $set: updatedJob })
         return job
@@ -65,12 +75,4 @@ async function add(job) {
         console.log(`ERROR: cannot insert job`)
         throw err;
     }
-}
-
-function _buildCriteria(filterBy) {
-    const criteria = {};
-    if (filterBy.txt) {
-        criteria.desc = filterBy.txt
-    }
-    return criteria;
 }
